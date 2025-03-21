@@ -77,7 +77,7 @@ export default function TabsLayout() {
         name="saved"
         options={{
           title: "Save",
-          headerShown: false,
+          headerShown: false, 
           tabBarIcon: ({ focused }) => (
             <TabIcon focused={focused} icon={icons.save} title="Save" />
           ),
